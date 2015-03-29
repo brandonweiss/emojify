@@ -8,7 +8,18 @@ You'll need Ruby. I would've preferred the script to be in Bash but I couldn't f
 
 ## Installation
 
-The `emoji` script is self-contained. Just put it somewhere that's in your `$PATH`.
+### Homebrew
+
+Emojify might be too niche to make it into the main homebrew repo, but you can easily get it from my personal [tap][tap].
+
+```shell
+brew tap brandonweiss/homebrew-tap
+brew install emojify
+```
+
+### Manually
+
+The [`emojify`](bin/emojify) script is self-contained. Just put it somewhere that's in your `$PATH`.
 
 ## Usage
 
@@ -46,6 +57,7 @@ rake build
 It uses [gemoji][gemoji] as a data source and embeds a mapping of each emoji alias to emoji character in the script.
 
 [emoji aliases]: http://www.emoji-cheat-sheet.com
+[tap]: https://github.com/brandonweiss/homebrew-tap
 [gemoji]: https://github.com/github/gemoji
 
 ## Contributing
