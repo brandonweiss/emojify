@@ -1,0 +1,10 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    gemoji (2.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  gemoji (~> 2.1.0)
