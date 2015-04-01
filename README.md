@@ -27,14 +27,14 @@ The [`emojify`](bin/emojify) script is self-contained. Just put it somewhere tha
 
 ```shell
 echo ":fish: + :hocho: = :sushi:" | emojify
-🐟  + 🔪  = 🍣
+🐟 + 🔪 = 🍣
 ```
 
 ### File
 
 ```shell
 emojify where_does_sushi_come_from.txt
-🐟  + 🔪  = 🍣
+🐟 + 🔪 = 🍣
 ```
 
 ### In practice
